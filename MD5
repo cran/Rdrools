@@ -1,0 +1,13 @@
+8d6ef5992881d2ebacdc54ad381041ac *DESCRIPTION
+bb3ca60759f3202f1ae42e3519cd06bc *LICENSE
+42ed0ae836b7aedf3e11a7aab1f8839b *NAMESPACE
+b9a54210a35708cb8bfd3382bb428f3f *R/Rdrools.R
+e8110f532495ea294064073ccf84176c *data/class.rda
+471b477c6fb80de3ed3c5930b4d8d96d *data/rules.rda
+1ece2dd921d73725f5ce18e17b9d41d8 *inst/java/drools-0.0.1.jar
+fcd8e63fbc2c887d677ffab2cb23c6c8 *man/Rdrools-internal.Rd
+2738df448833ad68c7a69b8667cfe2ee *man/Rdrools-package.Rd
+17c37508a9942e15fb79094558d02430 *man/class.Rd
+3677594357b1dc96b8e21f286f9dbc67 *man/rules.Rd
+eb42090f0ecfbfe6f619ae8ae05d086b *man/rulesConnection.Rd
+7d78ec7c02c31f34e20f2b466fdaa580 *man/runRules.Rd
