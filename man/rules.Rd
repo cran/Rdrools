@@ -2,15 +2,14 @@
 \alias{rules}
 \docType{data}
 \title{
-a set of rules, for the \code{\link{class}} dataset
+A set of rules, for the \code{\link{class}} dataset
 }
 \description{
-a character vector of lines read using \code{readLines()} from a drools rule file(text files with drools rules)
+a character vector of lines read using \code{readLines()} from a drools rule file (text files with drools rules)
 }
 \usage{data(rules)}
 \format{
-  The format is:
- chr [1:12] "import java.util.HashMap;" "global java.util.HashMap output;" "" ...
+  The expected format is a character vector.
 }
 \details{
 You could create a similar rules character vector by using \cr

@@ -28,10 +28,10 @@ rulesSession(rules, input.columns, output.columns)
 An active drools rules session. This promotes re-usability of a session, i.e. you can utilize the same session repetitively for different data sets of the same format.
 }
 \value{
-\item{rules.session.object }{Returns a session to the rules engine}
+\item{rules.session.object}{Returns a session to the rules engine}
 }
 \author{
-SMS Chauhan <smschauhan@gmail.com>
+Ashwin Raaghav <ashraaghav@gmail.com>, SMS Chauhan <smschauhah@gmail.com>
 }
 \note{
 Please have a look at the examples provided in the "examples" section of the \code{\link{Rdrools}} man page. A sample data set and a set of rules have been supplied help you understand the package usage.
@@ -46,16 +46,6 @@ data(rules)
 input.columns<-c("name", "class", "grade", "email")
 output.columns<-c("address", "subject", "body")
 rules.session<-rulesSession(rules, input.columns, output.columns)
-
-## The function is currently defined as
-function(rules,input.columns, output.columns)
-{
-	rules <- paste(rules, collapse="\n")
-	input.columns<-paste(input.columns,collapse=",")
-	output.columns<-paste(output.columns,collapse=",")
-	droolsSession<-.jnew('org/math/r/drools/DroolsService',rules,input.columns, output.columns)
-	return(droolsSession)
-}
 }
 \keyword{ rulesSession }
 \keyword{ runRules }

@@ -1,7 +1,7 @@
 \name{runRules}
 \alias{runRules}
 \title{
-apply a set of rule transformations to a data frame
+Apply a set of rule transformations to a data frame
 }
 \description{
 This function is the core of the Rdrools package. Rules are applied on an input data frame and the results are returned as the output of the function. The columns on which the rules need to be applied have to be provided explicitly. Additionally, the new columns that would be created based on the rules have to be provided explicitly as well.\cr 
@@ -28,7 +28,7 @@ If you are not familiar with the drools file format, please have a look at the r
 }
 
 \author{
-SMS Chauhan <smschauhan@gmail.com>
+Ashwin Raaghav <ashraaghav@gmail.com>, SMS Chauhan <smschauhah@gmail.com>
 }
 \section{Warning}{
 \bold{Transformation policy}\cr
@@ -48,20 +48,6 @@ input.columns<-c("name", "class", "grade", "email")
 output.columns<-c("address", "subject", "body")
 rules.session<-rulesSession(rules, input.columns, output.columns)
 output.df<-runRules(rules.session, class)
-
-## The function is currently defined as
-function(rules.session,input.df)
-{
-	conn<-textConnection('input.csv.string','w')
-	write.csv(input.df,file=conn)
-	close(conn)
-	input.csv.string<-paste(input.csv.string, collapse="\n")
-	output.csv.string <- .jcall(rules.session, "S", "execute",input.csv.string)
-	conn <- textConnection(output.csv.string, "r")
-	output.df<-read.csv(file=conn, header=T)
-	close(conn)
-	return(output.df)
-}
 
 }
 \keyword{ runRules }

@@ -2,7 +2,7 @@
 \alias{class}
 \docType{data}
 \title{
-Sample data set on which rules from the \code{\link{rules}} dataset can be applied
+Sample dataset on which rules from the \code{\link{rules}} dataset can be applied
 }
 \description{
 The dataset describes a class of students, their grades and contact details.
