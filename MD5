@@ -1,9 +1,10 @@
-bc358782647860cc9b583b723083798d *DESCRIPTION
+079cbc7829216b629a3417353ab25956 *DESCRIPTION
 341ceac15d36ce0a6df3f75c1768341d *NAMESPACE
 47979e9d49766d238f764d4af705e57d *R/Rdrools.R
 e8110f532495ea294064073ccf84176c *data/class.rda
 b67cb0898da9296bb69d5ec903ca9795 *data/rules.rda
 845b4ba786a95b6b96cdb9813edf5feb *inst/java/drools-1.0.0.jar
+246983a76401d8e6ee36a290b68fb52a *inst/java/drools-1.0.1.jar
 33de90a1357858b3ce7c7bab121a4044 *java/README
 b270d97f62fa577b2d820d7a4e4f1962 *java/org/math/r/drools/DroolsService.java
 19d2e239ca319d24647886f1e9d87efb *man/Rdrools-internal.Rd
