@@ -12,8 +12,8 @@ Rdrools is a robust rules engine based on the popular BRMS (Business Rule Manage
 \tabular{ll}{
 Package: \tab Rdrools\cr
 Type: \tab Package\cr
-Version: \tab 1.0.0\cr
-Date: \tab 2017-04-24\cr
+Version: \tab 1.0.2\cr
+Date: \tab 2017-07-20\cr
 License: \tab Apache License 2.0\cr
 LazyLoad: \tab yes\cr
 LazyData: \tab yes\cr
@@ -65,8 +65,8 @@ end
 library(Rdrools)
 data(class)
 data(rules)
-input.columns<-c("name", "class", "grade", "email")
-output.columns<-c("address", "subject", "body")
+input.columns<-c('name', 'class', 'grade', 'email')
+output.columns<-c('address', 'subject', 'body')
 rules.session<-rulesSession(rules, input.columns, output.columns)
 output.df<-runRules(rules.session, class)
 }

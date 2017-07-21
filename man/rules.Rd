@@ -13,7 +13,7 @@ a character vector of lines read using \code{readLines()} from a drools rule fil
 }
 \details{
 You could create a similar rules character vector by using \cr
-\code{rules<-readLines("rules.drl")}
+\code{rules<-readLines('rules.drl')}
 }
 \examples{
 data(rules)

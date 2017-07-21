@@ -44,8 +44,8 @@ Please make sure that the list of output columns provided through the \code{outp
 library(Rdrools)
 data(class)
 data(rules)
-input.columns<-c("name", "class", "grade", "email")
-output.columns<-c("address", "subject", "body")
+input.columns<-c('name', 'class', 'grade', 'email')
+output.columns<-c('address', 'subject', 'body')
 rules.session<-rulesSession(rules, input.columns, output.columns)
 output.df<-runRules(rules.session, class)
 

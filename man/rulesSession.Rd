@@ -17,11 +17,11 @@ rulesSession(rules, input.columns, output.columns)
 }
   \item{input.columns}{
      a character vector of a set of input column, for example\cr
-     \code{input.columns<-c("name", "class", "grade", "email")} 
+     \code{input.columns<-c('name', 'class', 'grade', 'email')} 
 }
   \item{output.columns}{
 	a character vector of a set of expected output columns, for example\cr
-	\code{output.columns<-c("address", "subject", "body")}
+	\code{output.columns<-c('address', 'subject', 'body')}
 }
 }
 \details{
@@ -34,7 +34,7 @@ An active drools rules session. This promotes re-usability of a session, i.e. yo
 Ashwin Raaghav <ashraaghav@gmail.com>, SMS Chauhan <smschauhah@gmail.com>
 }
 \note{
-Please have a look at the examples provided in the "examples" section of the \code{\link{Rdrools}} man page. A sample data set and a set of rules have been supplied help you understand the package usage.
+Please have a look at the examples provided in the 'examples' section of the \code{\link{Rdrools}} man page. A sample data set and a set of rules have been supplied help you understand the package usage.
 }
 
 \seealso{
@@ -43,8 +43,8 @@ Please have a look at the examples provided in the "examples" section of the \co
 \examples{
 library(Rdrools)
 data(rules)
-input.columns<-c("name", "class", "grade", "email")
-output.columns<-c("address", "subject", "body")
+input.columns<-c('name', 'class', 'grade', 'email')
+output.columns<-c('address', 'subject', 'body')
 rules.session<-rulesSession(rules, input.columns, output.columns)
 }
 \keyword{ rulesSession }
