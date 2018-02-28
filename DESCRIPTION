@@ -1,9 +1,10 @@
 Package: Rdrools
 Type: Package
-Version: 1.0.2
-Date: 2017-07-20
+Version: 1.0.3
+Date: 2018-02-23
 Title: A Rules Engine Based on 'Drools'
 Authors@R: c(person("Ashwin","Raaghav", email = "Ashwin.Raaghav@mu-sigma.com", role = c("cre","aut")),
+		person("SMS","Chauhan", email = "Sms.Chauhan@mu-sigma.com", role = c("aut")),
 		person("Zubin","Dowlaty", email = "Zubin.Dowlaty@mu-sigma.com", role = c("aut")),
 		person("Arushi","Khattri", email = "Arushi.Khattri@mu-sigma.com", role = c("aut")))
 Maintainer: Ashwin Raaghav <Ashwin.Raaghav@mu-sigma.com>
@@ -14,9 +15,10 @@ License: Apache License 2.0
 LazyLoad: yes
 LazyData: yes
 NeedsCompilation: no
-Packaged: 2017-07-21 15:53:42 UTC; ashwin
+Packaged: 2018-02-28 10:38:33 UTC; ashwin
 Author: Ashwin Raaghav [cre, aut],
+  SMS Chauhan [aut],
   Zubin Dowlaty [aut],
   Arushi Khattri [aut]
 Repository: CRAN
-Date/Publication: 2017-07-21 22:46:41 UTC
+Date/Publication: 2018-02-28 12:36:19 UTC
