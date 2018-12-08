@@ -6,8 +6,8 @@
 \alias{Rdrools-package}
 \title{Rdrools}
 \description{
-An interface for using the popular Java based Drools, which is a Business Rule Management System (See <https://www.drools.org> for more information). 
- This package provides data scientists an intuitive interface to execute business rules on datasets for the purpose of analysis or designing intelligent systems, while leveraging the Drools rule engine. 
- Rules can be defined in a simple format in a CSV, imported into the R Session as a data frame, and passed directly to the rule-checking functions.
- Rules written in DRL format, accepted natively by Drools, can also be executed through an R interface. Credits to Mu Sigma for their continued support throughout the development of the package.
+An interface for using the popular Java based Drools, which is a Business Rule Management System (See <https://www.drools.org> for more information).
+This package allows data scientists to run rules on datasets provided through a CSV file using common data science verbs such as Filter, Group By and Aggregate.
+Additionally, rules defined directly in the DRL format accepted by the Drools engine can also be run.
+Credits to Mu Sigma for their continued support throughout the development of the package.
 }

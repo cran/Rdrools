@@ -1,7 +1,7 @@
-0c0e53b61011257f86934137485041f2 *DESCRIPTION
+98e5424d53d524eed94c92ef96f60827 *DESCRIPTION
 935cca6689c4d6d143c051ff2302680c *NAMESPACE
 2a71c4a6be1cff5e73c723013fcc346a *R/Rdrools.R
-c70b07fc1aab69caa450f731114f8def *R/Rdrools_package.R
+0d692ffa92f46cd2a3c499d146e19235 *R/Rdrools_package.R
 ce6cbd5555e155abb4a8e2b88b7af802 *R/data.R
 e24cce49916f6250501ff4c096b3428a *R/sysdata.rda
 b8cefb7cb3a16a387b77093ca05b7c89 *build/vignette.rds
@@ -12,11 +12,11 @@ d537513a3e3dc51f1a5d63fb5bc85af0 *data/transactionData.rda
 3d3f0f572f61c524a05cf7b31073e7dc *data/transactionRules.rda
 2672ec29628292559cff4d24fd7230fe *inst/doc/Executing_Business_Rules_At_Scale_With_RDrools_using_Drools.R
 94c6eaebc39f164b7a9f5cb78547d4e4 *inst/doc/Executing_Business_Rules_At_Scale_With_RDrools_using_Drools.Rmd
-a7b778d10e4e546cd9f9c6633f5854f8 *inst/doc/Executing_Business_Rules_At_Scale_With_RDrools_using_Drools.html
-03299232c9df0d6af1d11ff817bc0b11 *inst/java/drools-1.1.0.jar
+22bed61d5d667c34351e0d70d1307d8e *inst/doc/Executing_Business_Rules_At_Scale_With_RDrools_using_Drools.html
+0be1d9c95475318d98631ac4d79f530a *inst/java/drools-1.1.1.jar
 33de90a1357858b3ce7c7bab121a4044 *java/README
 b270d97f62fa577b2d820d7a4e4f1962 *java/org/math/r/drools/DroolsService.java
-8485fb2bbe16d9e276838b9ba2023aef *man/Rdrools.Rd
+9d5a221e42556e9e97405651b054515c *man/Rdrools.Rd
 ea0bf70f8ea505d3fe74e80d2481854c *man/changecolnamesInRules.Rd
 abed49f755d1663fd02826671d8d85de *man/class.Rd
 ca18ce094180decbf899a29461d5c5dc *man/executeRulesOnDataset.Rd
